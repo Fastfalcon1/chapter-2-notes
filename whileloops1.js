@@ -19,12 +19,20 @@ while (a < 51){
     a++;
 
 }
-let b = 0
+let b = -10;
 
-while (b < -10){
+while (b <= 10){
+    if (b >= -10)
 
     console.log(b);
 
     b++;
 
+}
+let q = 0;
+while (q > -51) {
+    if (q <= 0) {
+        console.log(q)
+    }
+    q--;
 }
